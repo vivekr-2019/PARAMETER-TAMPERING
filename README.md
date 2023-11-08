@@ -19,7 +19,7 @@ Making direct link to pages of the payment gateway, transmission of non-encrypte
 In this example, an attacker can modify the “value” information of a specific item, thus lowering its cost.  
 To prevent these packages to be read and tampered for the pages that are linked to the payment gateways and to show how it can be prevented using encryption and hashing, so that even if someone intercepts the package it will be impossible to change the values as they are encrypted and hashed.
 
-#Scope of the Project
+**Scope of the Project**
 -	Setting up a sample vulnerable web application that is prone to parameter tampering attacks. This will serve as a testbed for demonstrations.
 -	Performing controlled attacks on the sample application as well as live production websites using tools like Burp Suite to manipulate parameters and illustrate real-world attack techniques.
 -	Implementing cryptographic defenses including AES and RSA encryption algorithms to encrypt parameter data, protecting its integrity.
